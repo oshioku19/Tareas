@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    
+    background-color: palevioletred;
+    width: 25%;
+    border: 0.1rem solid black;
+}
