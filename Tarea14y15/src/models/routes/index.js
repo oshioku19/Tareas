@@ -1,0 +1,28 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "maria copaso",
+    "age":"89",
+    "email":"maria@gmail.com"
+}
+
+###
+GET  http://localhost:9000/api/users HTTP/1.1
+
+###
+GET  http://localhost:9000/api/users/63acb7f758f1209ae67a1ed2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/63acb7f758f1209ae67a1ed2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "maria copaso",
+    "age":"89",
+    "email":"mariacopaso@gmail.com"
+}
+
+###
+DELETE  http://localhost:9000/api/users/63acc1c6932747201050af4d HTTP/1.1
